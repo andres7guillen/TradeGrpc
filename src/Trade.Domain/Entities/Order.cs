@@ -10,5 +10,6 @@ namespace Trade.Domain.Entities
         public DateTime TransactTime { get; set; }
         public int Quanty { get; set; }
         public OrderType Type { get; set; }
+        public decimal Price { get; set; }
     }
 }
