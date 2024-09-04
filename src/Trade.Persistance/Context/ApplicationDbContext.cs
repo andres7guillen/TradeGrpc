@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using Trade.Application.Interfaces.Persistance;
 using Trade.Domain.Entities;
 using Trade.Persistance.Interceptors;
 
 namespace Trade.Persistance.Context
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
         private readonly AuditableEntitySaveChangesInterceptor _interceptor;
 

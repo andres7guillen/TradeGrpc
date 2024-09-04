@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{880FB3E5-51DC-49E0-888D-1D62D85FEA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Domain", "src\Trade.Domain\Trade.Domain.csproj", "{7A551739-73E5-4010-8C92-0BCD8B475269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trade.Domain", "src\Trade.Domain\Trade.Domain.csproj", "{7A551739-73E5-4010-8C92-0BCD8B475269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Persistance", "src\Trade.Persistance\Trade.Persistance.csproj", "{3F6C0D67-FAEA-42F8-B5FC-2EB02B011933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trade.Persistance", "src\Trade.Persistance\Trade.Persistance.csproj", "{3F6C0D67-FAEA-42F8-B5FC-2EB02B011933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Infrastructure", "src\Trade.Infrastructure\Trade.Infrastructure.csproj", "{D3A110A2-2A79-41B3-A9CC-37E3FA9BA95D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trade.Infrastructure", "src\Trade.Infrastructure\Trade.Infrastructure.csproj", "{D3A110A2-2A79-41B3-A9CC-37E3FA9BA95D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Application.Interfaces", "src\Trade.Interfaces\Trade.Application.Interfaces.csproj", "{A24442CE-5445-421E-AA1C-6AC144717557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trade.Application.Interfaces", "src\Trade.Interfaces\Trade.Application.Interfaces.csproj", "{A24442CE-5445-421E-AA1C-6AC144717557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Application.UseCases", "src\Trade.Application.UseCases\Trade.Application.UseCases.csproj", "{CA150E9E-8AFB-4F60-B8B7-A91570863AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trade.Application.UseCases", "src\Trade.Application.UseCases\Trade.Application.UseCases.csproj", "{CA150E9E-8AFB-4F60-B8B7-A91570863AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Services.gRPC", "src\Trade.Services.gRPC\Trade.Services.gRPC.csproj", "{D47FB84C-D372-4F6A-BD09-990958F061E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trade.Services.gRPC", "src\Trade.Services.gRPC\Trade.Services.gRPC.csproj", "{D47FB84C-D372-4F6A-BD09-990958F061E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
