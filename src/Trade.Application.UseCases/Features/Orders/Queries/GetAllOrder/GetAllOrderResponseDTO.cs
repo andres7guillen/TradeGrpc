@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Trade.Application.UseCases.Features.Orders.Queries.GetAllOrder
+﻿namespace Trade.Application.UseCases.Features.Orders.Queries.GetAllOrder
 {
-    public class GetAllOrderDTO
+    public class GetAllOrderResponseDTO
     {
         public Guid Id { get; set; }
         public string Symbol { get; set; }
