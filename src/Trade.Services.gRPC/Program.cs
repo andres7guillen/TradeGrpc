@@ -1,9 +1,11 @@
+using Trade.Application.UseCases;
 using Trade.Services.gRPC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddGrpc();
+builder.Services.RegisterApplicationServices();
 
 var app = builder.Build();
 
