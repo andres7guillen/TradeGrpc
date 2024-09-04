@@ -18,7 +18,7 @@ namespace Trade.Application.UseCases.Features.Orders.Queries.GetAllOrder
 
         public async Task<IEnumerable<GetAllOrderDTO>> Handle(GetAllOrderQuery request, CancellationToken cancellationToken)
         {
-            var orders = _context.Orders.AsQueryable().ToListAsync(cancellationToken);
+            var orders  = _context.Orders.AsQueryable().ToListAsync(cancellationToken);
             return _mapper.Map<IEnumerable<GetAllOrderDTO>>(orders);
         }
     }
