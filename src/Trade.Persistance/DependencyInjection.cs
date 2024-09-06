@@ -9,7 +9,7 @@ namespace Trade.Persistance
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection registerPersistence(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection RegisterPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<AuditableEntitySaveChangesInterceptor>();
             services.AddDbContext<ApplicationDbContext>(options =>
